@@ -1,0 +1,20 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    /* width: 100px; */
+    height: 80px;
+    align-items: center;
+    flex: 0.7;
+}
+
+@media (max-width: 995px){
+    .box{
+        flex: 100%;
+        justify-content:center;
+    }
+}
+
+
+.box svg{
+    height: 80px;
+}

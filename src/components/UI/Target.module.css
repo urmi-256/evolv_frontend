@@ -1,0 +1,33 @@
+.target{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+    align-content: space-around;
+    text-align: center;
+  }
+  
+
+.target button{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background: #101317;
+    border-radius: 4px;
+    align-items: center;
+    padding: 7px 15px;
+    outline: none;
+}
+
+
+@media (max-width: 995px){  
+    .target{
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .target button{
+      margin: 0 !important;
+      border-radius: 10px;
+    }
+}
+

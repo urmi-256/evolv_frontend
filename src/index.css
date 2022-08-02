@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #272e37;
+  color: white;
+  font-family: 'Montserrat';
+  line-height: 12px;
+  align-items: center;
+}
+
+main{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center ;
+}
+
+.subtitle{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #BDBCBE;
+
+}
+
+.space{
+  margin-top: 5px;
+}
+
+.dumbbell{
+  transform: rotate(-40deg) !important;
+  height:120%;
+  filter: invert(100%) sepia(1%) saturate(7475%) hue-rotate(329deg) brightness(113%) contrast(112%);
+}
+
+.extra{
+  font-size: 0.6rem;
+  margin-top: 20%;
+}
+
+img{
+  transform: scale(1.5);
+}

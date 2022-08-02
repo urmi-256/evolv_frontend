@@ -1,0 +1,22 @@
+
+
+.button{
+    display: inline-block;
+    padding: 30px 18px;
+    border-radius: 8px;
+    background-color: #101317;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.feedbackState{
+    background-color: #CC3838;
+}
+
+@media (max-width: 995px){  
+    .button{
+        padding: 10px 17px;
+        border-radius: 100%;
+    }
+}

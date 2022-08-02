@@ -1,0 +1,50 @@
+
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0.7;
+}
+
+.box img{
+    transform: scale(1.4);
+}
+
+.box p{
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.date span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+}
+
+.alert{
+    background-color: #CC3838;
+}
+
+@media (max-width: 995px){
+    .box{
+        flex: 100%;
+        justify-content:center;
+    }
+
+    .date{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+}
